@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "braduletconsole/1.0.0": {
+        "dependencies": {
+          "BraduletAP": "1.0.0"
+        },
+        "runtime": {
+          "BraduletConsole.dll": {}
+        }
+      },
+      "braduletap/1.0.0": {
+        "runtime": {
+          "BraduletAP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "braduletconsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "braduletap/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

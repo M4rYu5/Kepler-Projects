@@ -1,0 +1,7 @@
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\BraduletAP\bin\Debug\netcoreapp1.1\BraduletAP.deps.json
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\BraduletAP\bin\Debug\netcoreapp1.1\BraduletAP.dll
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\BraduletAP\bin\Debug\netcoreapp1.1\BraduletAP.pdb
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\BraduletAP\obj\Debug\netcoreapp1.1\BraduletAP.csprojResolveAssemblyReference.cache
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\BraduletAP\obj\Debug\netcoreapp1.1\BraduletAP.AssemblyInfo.cs
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\BraduletAP\obj\Debug\netcoreapp1.1\BraduletAP.dll
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\BraduletAP\obj\Debug\netcoreapp1.1\BraduletAP.pdb

@@ -1,0 +1,31 @@
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bradulet</title>
+
+    <script>
+    function goTo() {
+        var nrRamuri = document.getElementById("textbox").value;
+        if (nrRamuri > 0) {
+            window.open("".concat(window.location.href).concat("Bradulet/AfisareBrad?nr=").concat(nrRamuri));
+        }
+    }
+    </script>
+
+
+</head>
+<body>
+
+    <h2>Bradulet</h2>
+    <br /> Numar ramuri:
+    <input id="textbox" type="number" name="nr"> <button type="button" onclick="goTo()">Press Me</button> 
+
+</body>
+</html>

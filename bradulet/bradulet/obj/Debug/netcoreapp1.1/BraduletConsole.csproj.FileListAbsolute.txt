@@ -1,0 +1,11 @@
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\bin\Debug\netcoreapp1.1\BraduletConsole.deps.json
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\bin\Debug\netcoreapp1.1\BraduletConsole.runtimeconfig.json
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\bin\Debug\netcoreapp1.1\BraduletConsole.runtimeconfig.dev.json
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\bin\Debug\netcoreapp1.1\BraduletConsole.dll
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\bin\Debug\netcoreapp1.1\BraduletConsole.pdb
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\bin\Debug\netcoreapp1.1\BraduletAP.dll
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\bin\Debug\netcoreapp1.1\BraduletAP.pdb
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\obj\Debug\netcoreapp1.1\BraduletConsole.AssemblyInfo.cs
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\obj\Debug\netcoreapp1.1\BraduletConsole.dll
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\obj\Debug\netcoreapp1.1\BraduletConsole.pdb
+C:\Users\intern\documents\visual studio 2017\Projects\bradulet\bradulet\obj\Debug\netcoreapp1.1\BraduletConsole.csprojResolveAssemblyReference.cache
