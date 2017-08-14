@@ -1,0 +1,175 @@
+﻿@font-face {
+    /*From Google*/
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v8/10JVD_humAd5zP2yrFqw6ugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+
+header {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    background-color: #80ffbf;
+    border-bottom: 3px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+menu li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: medium;
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+    menu li:hover {
+        background-color: limegreen;
+    }
+
+
+
+aside table {
+    background-color: lightblue;
+    width: 100%;
+}
+
+    aside table tr:hover {
+        background-color: lightgreen;
+    }
+
+    aside table td, aside table th {
+        border: 1px solid black;
+    }
+
+    aside table th {
+        background-color: aqua;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+
+content form input[type=text], content form input[type=number] {
+    border-radius: 6px;
+    border: 1px solid blue;
+    padding: 5px 2px 5px 2px;
+    color: darkblue;
+}
+
+content form {
+    background-color: lightblue;
+    width: 100%;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+    content form table td {
+        padding: 5px;
+    }
+
+    content form table{
+        width:100%;
+    }
+
+    content form table td [class="autowidth"]{
+        padding: 5px;
+        width: 100%;
+    }
+
+    content form input[type="submit"], content form input[type="button"], content form button {
+        font: large;
+        color: black;
+        background-color: lightgreen;
+        border-radius: 10px;
+        padding: 10px;
+        border: solid;
+        border-color: green;
+        font-weight: bold;
+    }
+
+        content form input[type="submit"]:hover, content form input[type="button"]:hover, content form button:hover {
+            background-color: green;
+        }

@@ -1,0 +1,2 @@
+-din meniu te poti duce in Index si intr-o alta pagina goala
+-pagina cand o deschizi are un tabel unde poti sa introduci date din form
