@@ -1,0 +1,28 @@
+﻿
+<html>
+<body>
+    <table style="border:solid;border-width:1px">
+        <tr>
+            <th style="border:solid;border-width:1px">Numar</th>
+            <th style="border:solid;border-width:1px">Model</th>
+            <th style="border:solid;border-width:1px">An Fabricatie</th>
+
+            @{ int i = 0; }
+            @foreach (var masina in ViewData["masini"] as IList<WebApp.Controllers.Masina>)
+            {
+               
+            <tr ng-controller="myClass @i">
+                <td style="border:solid;border-width:1px">@masina.numar</td>
+                <td style="border:solid;border-width:1px">@masina.model</td>
+                <td style="border:solid;border-width:1px">@masina.anFab</td>
+                <td style="border:solid;border-width:1px"><img onc src="http://www.sbqc.net/wp-content/uploads/2014/10/icon-pencil.png" height="20" /></td>
+                <td style="border:solid;border-width:1px"><img onc src="https://lh6.ggpht.com/D0gDo9tdSqVM8oel0-mRBNsLF1Gsol4vAd8dD72trSXvzOT2h5BlAVNLvRkI1bCaik0=w300" height="20" /></td>
+                <td style="border:solid;border-width:1px"><img onc src="https://upload.wikimedia.org/wikipedia/commons/8/80/Symbol_OK.svg" height="20" /></td>
+            </tr>
+                i++;
+            }
+
+
+        </table>
+    </body>
+</html>

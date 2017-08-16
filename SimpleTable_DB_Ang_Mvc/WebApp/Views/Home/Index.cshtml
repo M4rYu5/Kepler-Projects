@@ -1,0 +1,69 @@
+﻿
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <style>
+        div.ceva {
+            float:left;
+        }
+        div.loadedData {
+            float: left;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("#buton1").click(function () {
+                $("#122").load("/home/getmasinitable")
+            })
+        })
+
+        
+            angular.module("myApp", []).controller("myCtrl", function ($scope, $http) {
+                $scope.numar = "";
+                $scope.model = "";
+                $scope.an = 2000;
+                var str =
+                    $scope.myFunc = function () {
+
+                        $http({
+                            method: 'GET',
+                            url: "/home/adaugamasina?numar=" + $scope.numar + "&model=" + $scope.model + "&an=" + $scope.an ,
+                        }).then(function () { 
+                            $("#122").load("/home/getmasinitable");
+                        })
+                }
+
+            })
+
+    </script>
+</head>    
+<body>
+    <div class="ceva" ng-app="myApp" ng-controller="myCtrl">
+        <table>
+            <tr>
+                <td>Numar:</td>
+                <td><input type="text" ng-model="numar" required/></td>
+            </tr>
+            <tr>
+                <td>Model:</td>
+                <td><input type="text" ng-model="model" required /></td>
+            </tr>
+            <tr>
+                <td>An:</td>
+                <td><input type="number" ng-model="an" required/></td>
+            </tr>
+                
+            <tr>
+                <td><button ng-click="myFunc()">Adauga</button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="ceva">
+        <button id="buton1">Refresh</button><br />
+
+        <div id="122" class="loadedData">
+        </div>
+    </div>
+</body>
+</html>
