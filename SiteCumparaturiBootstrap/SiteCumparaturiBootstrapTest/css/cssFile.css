@@ -1,0 +1,50 @@
+﻿
+
+[class~="produs"] {
+    padding: 10px;
+    border: rgba(0, 0, 0, 0.00) 3px solid;
+    border-radius: 20px;
+    /*margin: 10px;*/
+    text-align: center;
+}
+
+[class~="produs"]:hover {
+    border: #0dcdef 3px solid;
+    border-radius: 20px;
+}
+
+    [class~="produs"] img {
+        padding: 10px;
+        max-height: 300px;
+        width: auto;
+        max-width: 100%;
+    }
+
+    [class~="produs"] > [class~="info"] {
+        clear:right;
+    }
+
+[class~="info"] > [class~="price"] {
+    color:red;
+    font-weight:bold;
+}
+
+@media screen and (max-width: 768px) {
+    #searchInput {
+        width: 100%;
+        padding-left: 25px
+    }
+
+    [class~="produs"] img {
+        padding: 10px;
+        max-height: 200px;
+        width: auto;
+        float: left;
+    }
+    [class~="produs"] {
+        text-align:left;
+    }
+    [class~="price"] {
+        text-align: center;
+    }
+}
