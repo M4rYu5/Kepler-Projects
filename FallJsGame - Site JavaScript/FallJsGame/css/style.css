@@ -1,0 +1,82 @@
+﻿body {
+    background-color: aqua;
+}
+
+.gamescene {
+    border: 3px solid;
+}
+
+.player {
+    background-color: blue;
+    position: absolute;
+}
+
+.enemy {
+    background-color: red;
+    position: absolute;
+}
+
+#pause {
+    position: absolute;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 10px;
+    border: 3px solid darkred;
+    border-radius: 10px;
+    background-color: #bb1717;
+    visibility: hidden;
+}
+
+    #pause:hover {
+        background-color: #ea0d0d;
+    }
+
+#play {
+    position: absolute;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 10px;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    background-color: #0d870f;
+}
+
+    #play:hover {
+        background-color: #6af72e;
+    }
+
+#time {
+    font-weight: bold;
+    font-size: xx-large;
+    position: absolute;
+}
+
+#top {
+    float: right;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+table, tr, td, th {
+    border: 1px solid;
+}
+
+
+label, input {
+    display: block;
+}
+
+    input.text {
+        margin-bottom: 12px;
+        width: 95%;
+        padding: .4em;
+    }
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 25px;
+}
+#dialog-form{
+    display:none;
+}

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+    <script src="Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script src="Scripts/jquery.cookies.js"></script>
+    
+    <script src="Scripts/MyJavaScript.js"></script>
+</head>
+<body>
+    <div id="dialog" title="Basic dialog">
+        <ul id="score">
+        </ul>
+    </div>
+    <div id="dialog-form" title="Adauga Scor">
+        <h1 id="scoreId"></h1>
+    <form>
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" value="Name" class="text ui-widget-content ui-corner-all">
+        </fieldset>
+    </form>
+    </div>
+    <div class="gamescene">
+        <span id="time"></span>
+        <button id="top">
+            <img src="images/trophy-gold.png" width="20"/>
+            Top
+        </button>
+
+        <div class="player"></div>
+    </div>
+    <div>
+        <button id="pause" >Pause</button>
+        <button id="play" >Play</button>
+    </div>
+
+</body>
+</html>
